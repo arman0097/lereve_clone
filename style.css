@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+/* navbar-menu */
+.navbar-menu{
+    background-color: #fff;
+    height: 145px;
+    position: fixed;
+    width: 100%;
+}
+/* menibar1 */
+.menibar1{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-fst{
+    display: flex;
+    border: 1px solid transparent;
+}
+.nav-fst input{
+    margin-left: 20px;
+    font-size: 15px;
+    width: 275px;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px;
+    color: #000;
+    background-color: transparent;
+}
+.nav-fst i{
+    margin-left: -30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.nav-sec img{
+    margin-left: -90px;
+}
+
+
+.nav-third{
+
+}
+.nav-third i {
+    margin-right: 40px;
+    font-size: 25px;
+    color: #ccc;
+}
+
+
+
+/* menubar2 */
+.menubar2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.menubar2 a{
+    font-size: 17px;
+    font-weight: 100;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Banner */
+
+.banner img{
+    width: 100%;
+    height: 600px;
+    padding-top: 130px;
+}
+
+/* image-box */
+.image-box{
+    width: 100%;
+    background-color: #fff;
+    
+}
+.image-box h2{
+text-align: center;
+padding: 40px;
+background-color: #fff;
+}
+
+.img-box{
+    width: 100%;
+    height: 144vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.box-ig1{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-ig1 img{
+    width: 100%;
+    height: 100%;
+}
+.box-img2{
+    width: 40%;
+    margin-right: 20px;
+}
+.box-img2 img{
+    margin-bottom: 3.3%;
+}
+
+
+/* Kids' Collection! */
+.kids{
+    background-color: #fff;
+}
+.kids h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.kid-coll{
+    width: 100%;
+    display: flex;
+}
+.kids1{
+    width: 49%;
+}
+.kids1 img{
+    width: 100%;
+    margin-left: 20px;
+}
+.kids2{
+    width: 49%;
+}
+.kids2 img{
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+/*youtube*/
+.youtube{
+    margin-bottom: 10%;
+}
+.youtube p{
+    font-size: 36px;
+    text-align: center;
+    padding: 36px;
+}
+.ytube{
+    text-align: center;
+}
+.ytube h2{
+    text-align: left;
+    margin-left: 17.9%;
+    margin-bottom: 15px;
+}
+
+
+
+/* fotter */
+.fotter{
+    background-color: rgb(242, 242, 242);
+    height: 75vh;
+}
+
+/* footer min */
+.footer-min{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+/* footer-first */
+
+.footer-first{
+    padding-left: 4%;
+}
+.footer-first p{
+    font-weight: 100;
+    font-size: small;
+    color: #999999;
+    line-height: 1.5rem;
+    padding-bottom: 40px;
+}
+
+
+/* footer-sec */
+.footer-sec{
+    width: 60%;
+}
+.sec-fst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-fst img{
+    margin-left: 40px;
+}
+
+.sec-fst .first-p{
+    margin-bottom: 50px;
+    color: #999999;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+/* sec-last */
+.sec-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-last p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.ex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+} 
+.ex input{
+    width: 100%;
+    padding: 5px 0 10px;
+    border: none transparent;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    outline: 0;
+    font-size: 17px;
+    font-weight: 100;
+
+}
+.ex i{
+    color: #ccc;
+}
+
+.sec-icon{
+    text-align: right;
+    margin-top: 30px;
+}
+.sec-icon i{
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+
+/* fotter */
+.fotter2{
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    margin-top: 20px;
+    
+}
+.fotter2 p{
+    margin-left: 4%;
+}
+span{
+    font-weight: 900;
+    color: #000;
+}
+.fotter3 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #999999;
+}
